@@ -1,0 +1,71 @@
+body {
+    background-color: #add8e6; /* Background biru muda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header-container {
+    text-align: left; /* Pusatkan teks ke kiri */
+    background-color: #add8e6; /* Latar belakang biru muda */
+    padding: 10px;
+}
+
+.calculator-container {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    background-color: black; /* Mengubah latar belakang menjadi hitam */
+}
+
+.calculator {
+    text-align: center;
+}
+
+.calculator-header {
+    margin: 0; /* Hapus margin default dari h1 */
+}
+
+#display {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px; /* Mengubah sudut tombol menjadi tumpul */
+    background-color: white; /* Mengubah warna latar belakang tombol angka menjadi putih */
+}
+
+.operator {
+    border-radius: 20px; /* Mengubah sudut tombol operator menjadi tumpul */
+    background-color: #66cdaa; /* Mengubah warna latar belakang tombol operator menjadi hijau toska */
+    color: #fff;
+}
+
+.calculator-header-large {
+    font-size: 60px; /* Ubah ukuran teks menjadi 60px (atau sesuai kebutuhan) */
+    margin: 0; /* Hapus margin default yang ada */
+}
+
+.calculator-header {
+    margin-top: 10px; /* Atur margin atas antara kedua elemen teks */
+}
+
+
