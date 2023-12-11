@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar {
+  background-color: white; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+  height: 40px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.buttons button {
+  padding: 5px 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.transparent-button {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.transparent-button:hover,
+.transparent-button:active {
+  background-color: #0066A2;
+  color: white;
+}
+
+.blue-button {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3
+}
+
+.blue-button:hover,
+.blue-button:active {
+  background-color: #0066A2;
+  color: white
+}
+
+.image img {
+  width: 100%; 
+  height: auto; 
+}
+
+.footer {
+  background-color:white;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  max-height: 250px;
+  overflow: hidden 
+}
+
+.footer-ilab {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 10px;
+  padding-left: 175px;
+}
+
+.service-color {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.footer-service {
+  position: relative;
+  top: -80px;
+  left: 80px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 8;
+}
+
+.about-color {
+  color: rgba(255, 3, 3, 0.3);
+}
+
+.footer-about {
+  position: relative;
+  top: -80px;
+  left: 0px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 8;
+}
+
+.footer-follow {
+  position: relative;
+  top: -80px;
+  left: -80px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 8;
+}
+
+.icon {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.icon i {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.icon-text {
+  font-size: 15px;
+  text-align: right;
+}
+
